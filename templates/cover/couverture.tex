@@ -34,7 +34,7 @@
 \vspace{\drop} % Whitespace between the top lines and title
 \centering % Center all text
 
-\vspace{100px}
+\vspace{10px}
 \def\CP{\begin{minipage}{0.7\textwidth}\begin{center}\textit{\Huge \titre}\end{center}\end{minipage}} % Title
 
 \settowidth{\unitlength}{\CP} % Set the width of the curly brackets to the width of the title
@@ -58,6 +58,14 @@
 \end{itemize}
 \end{minipage}
 \vfill % Whitespace between the author name and the publisher logo
+\begin{minipage}{0.8\textwidth}
+	\begin{tabular}{p{5cm}p{5cm}p{5cm}}
+		\textbf{Rédigé par} & %\textbf{Vérifié par} 
+		& \textbf{Approuvé par}\\
+		Équipe FACT & & Frédéric \bsc{Migeon}\\
+	\end{tabular}
+\end{minipage}
+\vfill
 \Large \today % Year published
 
 \rule{\textwidth}{0.4pt}\par % Thick horizontal line
