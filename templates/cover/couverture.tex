@@ -48,6 +48,10 @@
 
 {
 \normalsize \LARGE Université Toulouse III -- Paul Sabatier}\\ % Author name
+%% IF approved
+\ifx\approved\undefined
+~
+\else
 \vfill
 \begin{minipage}{0.6\textwidth}
 \begin{itemize}
@@ -65,6 +69,8 @@
 		Équipe FACT & & Frédéric \bsc{Migeon}\\
 	\end{tabular}
 \end{minipage}
+\fi
+
 \vfill
 \Large \today % Year published
 
